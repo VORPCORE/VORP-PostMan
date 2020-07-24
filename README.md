@@ -2,7 +2,6 @@
 PostMan Service Job
 
 ## Preview
-- [Video](https://www.youtube.com/watch?v=VINn8soDV20)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VINn8soDV20/0.jpg)](https://www.youtube.com/watch?v=VINn8soDV20)
 
 ## Requirements
