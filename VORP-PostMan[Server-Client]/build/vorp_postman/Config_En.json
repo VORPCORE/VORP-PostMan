@@ -1,4 +1,4 @@
-{
+﻿{
   "defaultlang": "En",
   "KeyToStart": "0xD9D0E1C0",
   "KeyToPick": "0xC7B5340A",
@@ -13,7 +13,7 @@
       "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
       "JobZones": [
         {
-          "Name": "Do�a singular's house",
+          "Name": "Doña singular's house",
           "Pos": [ -262.92, 762.13, 118.15 ],
           "Money": [ 2.0, 5.0 ],
           "Xp": 50
