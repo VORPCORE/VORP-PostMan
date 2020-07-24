@@ -3,6 +3,7 @@ PostMan Service Job
 
 ## Preview
 - [Video](https://www.youtube.com/watch?v=VINn8soDV20)
+![](https://www.youtube.com/watch?v=VINn8soDV20)
 
 ## Requirements
 - [VORP Core](https://github.com/VORPCORE/VORP-Core/releases)
