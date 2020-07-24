@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="LoadConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vorp_postman_sv_init.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Config.json">

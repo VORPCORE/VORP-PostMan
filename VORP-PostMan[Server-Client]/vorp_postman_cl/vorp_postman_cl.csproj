@@ -50,8 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClearCaches.cs" />
+    <Compile Include="Functions.cs" />
     <Compile Include="GetConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vorp_postman_cl_init.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
