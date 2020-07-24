@@ -42,7 +42,7 @@ namespace vorp_postman_cl
                 int packageEntity = API.CreateObject(packageHash, Pos.X, Pos.Y, Pos.Z, true, true, true, true, true);
                 API.SetEntityAsMissionEntity(packageEntity, true, true);
                 PackageList.Add(packageEntity);
-                Function.Call((Hash)0x6B9BBD38AB0796DF, packageEntity, cacheVehicle, 0, 0.0f, (-1.8f + (float)(i / 2.0f)), -0.09f, 0.0f, 0.0f, 0.0f, 0, 0, 0, 0, 2, true);
+                Function.Call((Hash)0x6B9BBD38AB0796DF, packageEntity, cacheVehicle, 0, 0.0f, (-1.8f + (float)(i / 2.0f)), 0.09f, 0.0f, 0.0f, 0.0f, 0, 0, 0, 0, 2, true);
             }
         }
 
