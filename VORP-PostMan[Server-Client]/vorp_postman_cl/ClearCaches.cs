@@ -38,6 +38,7 @@ namespace vorp_postman_cl
 
             DeleteVehicle(ref Functions.cacheVehicle);
             Function.Call((Hash)0x9E0AB9AAEE87CE28);
+            API.ClearPedTasks(API.PlayerPedId(), 1, 1);
         }
 
         public static void ClearAll()

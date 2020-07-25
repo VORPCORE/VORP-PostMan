@@ -28,7 +28,7 @@ namespace vorp_postman_cl
             API.SetBlipSprite(blip, 1612913921, 1);
             Function.Call((Hash)0x9CB1A1623062F402, blip, GetConfig.Langs["VehicleBlip"]);
             await SpawnPackages();
-            await RunJobThread();
+            await JobRun();
         }
 
         private static async Task SpawnPackages()
@@ -46,7 +46,7 @@ namespace vorp_postman_cl
             }
         }
 
-        public static async Task RunJobThread()
+        public static async Task JobRun()
         {
             await NewLocation();
 
@@ -136,7 +136,7 @@ namespace vorp_postman_cl
             await LoadAnim("mech_carry_box");
 
             Function.Call((Hash)0xEA47FE3719165B94, API.PlayerPedId(), "mech_carry_box", "idle", 1.0, 8.0, -1, 31, 0, 0, 0, 0);
-            Function.Call((Hash)0x6B9BBD38AB0796DF, packageEntity, API.PlayerPedId(), API.GetEntityBoneIndexByName(API.PlayerPedId(), "SKEL_R_Finger12"), 0.02f, -0.028f, 0.001f, 15.0f, 175.0f, 0.0f, true, true, false, true, 1, true);
+            Function.Call((Hash)0x6B9BBD38AB0796DF, packageEntity, API.PlayerPedId(), API.GetEntityBoneIndexByName(API.PlayerPedId(), "SKEL_R_Finger12"), 0.20f, -0.028f, 0.001f, 15.0f, 175.0f, 0.0f, true, true, false, true, 1, true);
             while (API.IsEntityAttachedToEntity(packageEntity, API.PlayerPedId()))
             {
                 Function.Call((Hash)0x7DFB49BCDB73089A, packageEntity, false);

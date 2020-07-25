@@ -28,14 +28,14 @@ namespace vorp_postman_cl
                 string ped = office["NPCModel"].ToString();
                 uint pedHash = (uint)API.GetHashKey(ped);
                 await LoadModel(pedHash);
-                int blipIcon = int.Parse(office["BlipIcon"].ToString());
-                float x = float.Parse(office["EnterOffice"][0].ToString());
-                float y = float.Parse(office["EnterOffice"][1].ToString());
-                float z = float.Parse(office["EnterOffice"][2].ToString());
-                float Pedx = float.Parse(office["NPCOffice"][0].ToString());
-                float Pedy = float.Parse(office["NPCOffice"][1].ToString());
-                float Pedz = float.Parse(office["NPCOffice"][2].ToString());
-                float Pedh = float.Parse(office["NPCOffice"][3].ToString());
+                int blipIcon = office["BlipIcon"].ToObject<int>();
+                float x = office["EnterOffice"][0].ToObject<float>();
+                float y = office["EnterOffice"][1].ToObject<float>();
+                float z = office["EnterOffice"][2].ToObject<float>();
+                float Pedx = office["NPCOffice"][0].ToObject<float>();
+                float Pedy = office["NPCOffice"][1].ToObject<float>();
+                float Pedz = office["NPCOffice"][2].ToObject<float>();
+                float Pedh = office["NPCOffice"][3].ToObject<float>();
 
                 int _blip = Function.Call<int>((Hash)0x554D9D53F696D002, 1664425300, x, y, z);
                 Function.Call((Hash)0x74F74D3207ED525C, _blip, blipIcon, 1);
@@ -85,10 +85,10 @@ namespace vorp_postman_cl
 
             for (int i = 0; i < GetConfig.Config["PostOffices"].Count(); i++)
             {
-                float x = float.Parse(GetConfig.Config["PostOffices"][i]["EnterOffice"][0].ToString());
-                float y = float.Parse(GetConfig.Config["PostOffices"][i]["EnterOffice"][1].ToString());
-                float z = float.Parse(GetConfig.Config["PostOffices"][i]["EnterOffice"][2].ToString());
-                float radius = float.Parse(GetConfig.Config["PostOffices"][i]["EnterOffice"][3].ToString());
+                float x = GetConfig.Config["PostOffices"][i]["EnterOffice"][0].ToObject<float>();
+                float y = GetConfig.Config["PostOffices"][i]["EnterOffice"][1].ToObject<float>();
+                float z = GetConfig.Config["PostOffices"][i]["EnterOffice"][2].ToObject<float>();
+                float radius = GetConfig.Config["PostOffices"][i]["EnterOffice"][3].ToObject<float>();
 
                 if (API.GetDistanceBetweenCoords(pCoords.X, pCoords.Y, pCoords.Z, x, y, z, true) <= radius)
                 {
