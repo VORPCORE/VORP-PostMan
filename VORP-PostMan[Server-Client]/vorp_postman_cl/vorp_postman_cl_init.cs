@@ -75,7 +75,6 @@ namespace vorp_postman_cl
             }
         }
 
-        [Tick]
         private async Task onOffice()
         {
             if (OfficePeds.Count() == 0) { return; }
