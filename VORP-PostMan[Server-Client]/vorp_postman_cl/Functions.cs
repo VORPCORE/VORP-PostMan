@@ -15,9 +15,10 @@ namespace vorp_postman_cl
         public static int deliverLocation = 0;
         public static List<int> PackageList = new List<int>();
         public static uint KeyToPick = 0;
+        public static List<int> deliverypoints = new List<int>();
         public static async Task StartJob(int i)
         {
-            Debug.WriteLine(GetConfig.Config["PostOffices"][i]["Name"].ToString());
+            deliverypoints.Clear();
             postOffice = i;
             vorp_postman_cl_init.isWorking = true;
             uint vehicleHash = (uint)API.GetHashKey("CART06");
@@ -119,11 +120,17 @@ namespace vorp_postman_cl
                 TriggerEvent("vorp:TipRight", GetConfig.Langs["ReturnToOffice"], 4000);
                 Function.Call((Hash)0x9E0AB9AAEE87CE28);
                 deliverLocation = -1;
+                deliverypoints.Clear();
                 return;
             }
 
             Random rnd = new Random();
             deliverLocation = rnd.Next(0, GetConfig.Config["PostOffices"][postOffice]["JobZones"].Count());
+            while (deliverypoints.Contains(deliverLocation))
+            {
+                deliverLocation = rnd.Next(0, GetConfig.Config["PostOffices"][postOffice]["JobZones"].Count());
+            }
+            deliverypoints.Add(deliverLocation);
             API.StartGpsMultiRoute(70, true, true);
             Function.Call((Hash)0x64C59DD6834FA942, GetConfig.Config["PostOffices"][postOffice]["JobZones"][deliverLocation]["Pos"][0].ToObject<float>(), GetConfig.Config["PostOffices"][postOffice]["JobZones"][deliverLocation]["Pos"][1].ToObject<float>(), GetConfig.Config["PostOffices"][postOffice]["JobZones"][deliverLocation]["Pos"][2].ToObject<float>());
             Function.Call((Hash)0x4426D65E029A4DC0, true);
