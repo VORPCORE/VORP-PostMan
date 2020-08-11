@@ -104,9 +104,9 @@ namespace vorp_postman_cl
             cacheVehicle = 0;
             postOffice = 0;
             deliverLocation = 0;
-            PackageList = new List<int>();
+            PackageList.Clear();
             KeyToPick = 0;
-            deliverypoints = new List<int>();
+            deliverypoints.Clear();
         }
 
         private static void DrawText3D(float x, float y, float z, string text)
