@@ -120,7 +120,7 @@
         }
       ]
     },
-	{
+    {
       "Name": "Bureau de la Strawberry",
       "BlipIcon": 1861010125,
       "EnterOffice": [ -1765.2, -384.01, 157.74, 2.0 ],
@@ -174,6 +174,65 @@
         {
           "Name": "Le centre d'accueil",
           "Pos": [ -1812.6, -372.02, 162.9 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
+    },
+    {
+      "Name": "Annesburg's Office",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ 2931.16, 1283.15, 43.66, 2.0 ],
+      "NPCOffice": [ 2933.17, 1282.53, 43.66, 69.94 ],
+      "VehicleSpawn": [ 2926.18, 1290.76, 43.56, 343.7 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "Bureau du shérif",
+          "Pos": [ 2907.97, 1310.0, 44.02 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Maison du travailleur",
+          "Pos": [ 2902.39, 1377.69, 53.55 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Le bureau",
+          "Pos": [ 2921.91, 1377.79, 55.24 ],
+          "Money": [ 3.0, 6.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La jetée",
+          "Pos": [ 3020.16, 1352.33, 41.74 ],
+          "Money": [ 3.5, 7.5 ],
+          "Xp": 60
+        },
+        {
+          "Name": "Le magasin général",
+          "Pos": [ 2931.63, 1365.69, 44.2 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+
+        {
+          "Name": "Entrée de la mine",
+          "Pos": [ 2745.83, 1411.81, 97.83 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Le Armurerie",
+          "Pos": [ 2943.39, 1318.64, 43.83 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La boutique du forgeron",
+          "Pos": [ 2877.71, 1366.91, 61.96 ],
           "Money": [ 2.0, 5.0 ],
           "Xp": 50
         }
