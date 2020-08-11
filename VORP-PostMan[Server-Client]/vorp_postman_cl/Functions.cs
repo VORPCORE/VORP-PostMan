@@ -99,6 +99,16 @@ namespace vorp_postman_cl
 
         }
 
+        public static async Task StopJob()
+        {
+            cacheVehicle = 0;
+            postOffice = 0;
+            deliverLocation = 0;
+            PackageList.Clear();
+            KeyToPick = 0;
+            deliverypoints.Clear();
+        }
+
         private static void DrawText3D(float x, float y, float z, string text)
         {
             float _x = 0;
