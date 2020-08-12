@@ -18,6 +18,7 @@ namespace vorp_postman_cl
         public static List<int> deliverypoints = new List<int>();
         public static async Task StartJob(int i)
         {
+            KeyToPick = GetConfig.FromHex(GetConfig.Config["KeyToPick"].ToString());
             deliverypoints.Clear();
             postOffice = i;
             vorp_postman_cl_init.isWorking = true;
