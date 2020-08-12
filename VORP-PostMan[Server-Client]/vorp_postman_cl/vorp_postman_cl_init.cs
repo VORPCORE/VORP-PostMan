@@ -98,6 +98,7 @@ namespace vorp_postman_cl
                         {
                             ClearCaches.ClearAll();
                             isWorking = false;
+                            Functions.StopJob();
                             await Delay(5000);
                         }
                     }
