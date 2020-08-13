@@ -236,6 +236,152 @@
           "Xp": 50
         }
       ]
+    },
+    {
+      "Name": "Oficina de Armadillo",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ -3729.01, -2603.13, -13.92, 2.0 ],
+      "NPCOffice": [ -3729.10, -2601.12, -12.94, 177.52 ],
+      "VehicleSpawn": [ -3721.3, -2617.73, -14.39, 274.50 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "La casa de doña singular",
+          "Pos": [ -3621.53, -2612.85, -14.6 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La oficina del sheriff",
+          "Pos": [ -3622.66, -2600.87, -14.35 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "El Banco",
+          "Pos": [ -3662.62, -2623.25, -14.56 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "El cementerio",
+          "Pos": [ -3309.67, -2854.24, -7.08 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La Iglesia",
+          "Pos": [ -3610.45, -2643.2, -11.65 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La tienda general",
+          "Pos": [ -3689.43, -2629.58, -14.39 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Tienda de herrería",
+          "Pos": [ -3683.82, -2564.53, -14.55 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "El salón",
+          "Pos": [ -3707.57, -2592.56, -14.3 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
+    },
+    {
+      "Name": "Oficina de Blackwater",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ -875.4, -1328.96, 42.96, 2.0 ],
+      "NPCOffice": [ -875.15, -1326.81, 42.97, 180.06 ],
+      "VehicleSpawn": [ -875.53, -1346.85, 42.3, 268.43 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "El muelle",
+          "Pos": [ -682.89, -1242.92, 42.12 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La barberia",
+          "Pos": [ -812.29, -1369.0, 42.76 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La tienda de ropa",
+          "Pos": [ -767.2, -1291.89, 42.85 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "El establo",
+          "Pos": [ -871.06, -1369.59, 42.54 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La tienda general",
+          "Pos": [ -788.07, -1325.96, 42.9 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La Iglesia",
+          "Pos": [ -974.55, -1179.43, 57.39 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La casa de doña singular",
+          "Pos": [ -965.58, -1253.02, 53.0 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "El campamento",
+          "Pos": [ -935.16, -1395.31, 49.66 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Casa del trabajador",
+          "Pos": [ -908.39, -1345.17, 44.57 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La bonita casa",
+          "Pos": [ -878.21, -1643.13, 68.17 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "La casa de 2 pisos",
+          "Pos": [ -812.52, -1502.17, 62.51 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "El Banco",
+          "Pos": [ -816.81, -1278.16, 42.66 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "El salón",
+          "Pos": [ -818.32, -1314.77, 42.68 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
     }
   ]
 }
