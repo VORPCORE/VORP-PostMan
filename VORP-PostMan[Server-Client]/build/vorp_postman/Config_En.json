@@ -119,6 +119,270 @@
           "Xp": 50
         }
       ]
+    },
+    {
+      "Name": "Strawberry's Office",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ -1765.2, -384.01, 157.74, 2.0 ],
+      "NPCOffice": [ -1763.48, -385.18, 156.75, 54.99 ],
+      "VehicleSpawn": [ -1752.8, -407.96, 155.38, 341.0 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "The Jail",
+          "Pos": [ -1812.74, -353.72, 164.65 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Doña singular's house",
+          "Pos": [ -1837.45, -418.93, 161.66 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Hunter's House",
+          "Pos": [ -1772.29, -431.75, 155.23 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The stable",
+          "Pos": [ -1818.74, -563.32, 156.06 ],
+          "Money": [ 3.5, 7.5 ],
+          "Xp": 60
+        },
+        {
+          "Name": "The general store",
+          "Pos": [ -1794.93, -384.95, 159.37 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+
+        {
+          "Name": "Doctor's office",
+          "Pos": [ -1806.21, -431.72, 158.83 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The butcher",
+          "Pos": [ -1750.24, -392.45, 156.31 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Welcome Center",
+          "Pos": [ -1812.6, -372.02, 162.9 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
+    },
+    {
+      "Name": "Annesburg's Office",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ 2931.16, 1283.15, 43.66, 2.0 ],
+      "NPCOffice": [ 2933.17, 1282.53, 43.66, 69.94 ],
+      "VehicleSpawn": [ 2926.18, 1290.76, 43.56, 343.7 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "Sheriff's office",
+          "Pos": [ 2907.97, 1310.0, 44.02 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Worker's house",
+          "Pos": [ 2902.39, 1377.69, 53.55 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Office",
+          "Pos": [ 2921.91, 1377.79, 55.24 ],
+          "Money": [ 3.0, 6.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Pier",
+          "Pos": [ 3020.16, 1352.33, 41.74 ],
+          "Money": [ 3.5, 7.5 ],
+          "Xp": 60
+        },
+        {
+          "Name": "The general store",
+          "Pos": [ 2931.63, 1365.69, 44.2 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+
+        {
+          "Name": "Mine Entrance",
+          "Pos": [ 2745.83, 1411.81, 97.83 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Gunshop",
+          "Pos": [ 2943.39, 1318.64, 43.83 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Blacksmith",
+          "Pos": [ 2877.71, 1366.91, 61.96 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
+    },
+    {
+      "Name": "Armadillo's Office",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ -3729.01, -2603.13, -13.92, 2.0 ],
+      "NPCOffice": [ -3729.10, -2601.12, -12.94, 177.52 ],
+      "VehicleSpawn": [ -3721.3, -2617.73, -14.39, 274.50 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "Doña singular's house",
+          "Pos": [ -3621.53, -2612.85, -14.6 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Sheriff's office",
+          "Pos": [ -3622.66, -2600.87, -14.35 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The bank",
+          "Pos": [ -3662.62, -2623.25, -14.56 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Cemetery",
+          "Pos": [ -3309.67, -2854.24, -7.08 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Church",
+          "Pos": [ -3610.45, -2643.2, -11.65 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The general store",
+          "Pos": [ -3689.43, -2629.58, -14.39 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Blacksmith",
+          "Pos": [ -3683.82, -2564.53, -14.55 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The saloon",
+          "Pos": [ -3707.57, -2592.56, -14.3 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
+    },
+    {
+      "Name": "Blackwater's Office",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ -875.4, -1328.96, 42.96, 2.0 ],
+      "NPCOffice": [ -875.15, -1326.81, 42.97, 180.06 ],
+      "VehicleSpawn": [ -875.53, -1346.85, 42.3, 268.43 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "The Pier",
+          "Pos": [ -682.89, -1242.92, 42.12 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The barbershop",
+          "Pos": [ -812.29, -1369.0, 42.76 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The clothing store",
+          "Pos": [ -767.2, -1291.89, 42.85 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The stable",
+          "Pos": [ -871.06, -1369.59, 42.54 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The general store",
+          "Pos": [ -788.07, -1325.96, 42.9 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Church",
+          "Pos": [ -974.55, -1179.43, 57.39 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Doña singular's house",
+          "Pos": [ -965.58, -1253.02, 53.0 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The camp",
+          "Pos": [ -935.16, -1395.31, 49.66 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Worker's House",
+          "Pos": [ -908.39, -1345.17, 44.57 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Nice House",
+          "Pos": [ -878.21, -1643.13, 68.17 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The 2-Story House",
+          "Pos": [ -812.52, -1502.17, 62.51 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Bank",
+          "Pos": [ -816.81, -1278.16, 42.66 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The saloon",
+          "Pos": [ -818.32, -1314.77, 42.68 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
     }
   ]
 }
