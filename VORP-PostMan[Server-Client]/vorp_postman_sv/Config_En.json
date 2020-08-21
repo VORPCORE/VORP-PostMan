@@ -383,6 +383,88 @@
           "Xp": 50
         }
       ]
+    },
+    {
+      "Name": "Rhodes Office",
+      "BlipIcon": 1861010125,
+      "EnterOffice": [ 1225.1, -1293.63, 75.91, 2.0 ],
+      "NPCOffice": [ 1226.84, -1295.18, 75.91, 45.33 ],
+      "VehicleSpawn": [ 1215.48, -1282.48, 75.62, 311.42 ],
+      "NPCModel": "A_M_M_MIDDLESDTOWNFOLK_01",
+      "JobZones": [
+        {
+          "Name": "Doña singular's house",
+          "Pos": [ 1424.05, -1138.77, 75.04 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Worker's House",
+          "Pos": [ 1297.15, -1144.67, 81.21 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Church",
+          "Pos": [ 1290.64, -1232.24, 81.58 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Sheriff's office",
+          "Pos": [ 1360.48, -1298.34, 76.77 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The bank",
+          "Pos": [ 1291.99, -1297.14, 76.07 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Nice House",
+          "Pos": [ 1431.55, -1371.26, 80.76 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The Gunshop",
+          "Pos": [ 1328.11, -1325.86, 76.94 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The general store",
+          "Pos": [ 1324.77, -1291.74, 76.02 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Doctor's office",
+          "Pos": [ 1369.34, -1310.74, 76.97 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "The camp",
+          "Pos": [ 1510.53, -1479.32, 71.16 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Gray Woolen Mill",
+          "Pos": [ 1429.27, -1277.89, 77.07 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        },
+        {
+          "Name": "Parlour House",
+          "Pos": [ 1338.18, -1378.81, 79.5 ],
+          "Money": [ 2.0, 5.0 ],
+          "Xp": 50
+        }
+      ]
     }
   ]
 }
